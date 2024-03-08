@@ -99,8 +99,7 @@ p{
     justify-content: center;
     align-items: center;
     height: 60vh !important;
-    background: url(/img/pexels-rene-asmussen-1327430-min.jpg) no-repeat center !important;
-    background-size: cover;
+    background: #1f1d1d;
 }
 
 .title{
@@ -123,15 +122,13 @@ p{
 /*productos*/
 .sau {
     padding: 23vh;
-    background: #1f1d1d;
+    background: #171717;
 }
 /*fin productos*/
 
 /*nosotros*/
 .about {
-    background: url(/img/drums-7751985_1280.webp) no-repeat center !important;
-    background-attachment: fixed;
-    background-size: cover;
+    background: #1f1d1d;
     text-align: center;
 }
 /*fin nosotros*/
