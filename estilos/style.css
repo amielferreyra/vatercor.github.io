@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*general*/
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 23vh;
+}
+
+/*encabezado*/
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: #7c7c7c;
+}
+
+.imglogo{
+    max-width: 130px;
+    filter: invert();
+}
+/*fin encabezado*/
+
+/*inicio*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(/img/pexels-rene-asmussen-1327430.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+/*fin inicio*/
+
+/*productos*/
+.sau {
+    padding: 23vh;
+    background: #1f1d1d;
+}
+/*fin productos*/
+
+/*nosotros*/
+.about {
+    background: url(/img/pexels-rodnae-productions-8197225.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+/*fin nosotros*/
+
+/*contacto*/
+.contact-wrapper{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: 2rem;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: sans-serif;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+
+.contanc-form {
+    background-color: #2222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #9c27b0;
+    margin: .5em;
+}
+
+.contact-form form label {
+    color: #fff;
+}
+
+
+.contact-form form button {
+    background: #9c27b0;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: none;
+    border: 1px solid #9c27b0;
+}
+
+.contact-info {
+    background-color: #000;
+    margin-left: 1rem;
+    padding-top: 3rem;
+}
+
+.separador { 
+        margin: .5em;
+        padding: .5em;
+    
+}
+
+.contact-info h3,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #fff;
+    padding: 1rem;
+}
+
+.imagen { 
+    max-width: 300px;
+}
+/*fin contacto*/
