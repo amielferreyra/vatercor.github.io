@@ -99,7 +99,7 @@ p{
     justify-content: center;
     align-items: center;
     height: 60vh !important;
-    background: url(/img/pexels-rene-asmussen-1327430.jpg) no-repeat center;
+    background: url(/img/pexels-rene-asmussen-1327430-min.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -129,7 +129,7 @@ p{
 
 /*nosotros*/
 .about {
-    background: url(/img/pexels-rodnae-productions-8197225.jpg) no-repeat center;
+    background: url(/img/pexels-rodnae-productions-8197225-min.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
